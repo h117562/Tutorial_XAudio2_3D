@@ -256,7 +256,7 @@ void ApplicationClass::Render(HWND hwnd, InputClass* pInputClass)
 		m_CameraClass->GetPosition(direction);
 		origin = XMFLOAT3(0.0f, 0.0f, 0.0f);
 
-		//카메라를 향해 항상 바라보게 빌보드 효과를 구현
+		//카메라를 향해 항상 바라보게
 		float rotY;
 		rotY = atan2f(origin.x - direction.x, origin.z - direction.z);
 
