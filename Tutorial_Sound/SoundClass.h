@@ -24,7 +24,6 @@
 
 #include <xaudio2.h>
 #include <x3daudio.h>
-#include <windows.h>
 
 class SoundClass
 {
