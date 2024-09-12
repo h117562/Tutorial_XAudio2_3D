@@ -1,6 +1,8 @@
 #ifndef _TRIANGLE_H_
 #define _TRIANGLE_H_
 
+#pragma comment(lib, "d3d11.lib")
+
 #include <d3d11.h>
 
 #include "GraphicsStructures.h"

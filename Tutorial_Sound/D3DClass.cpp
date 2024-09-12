@@ -1,6 +1,5 @@
 #include "d3dclass.h"
 
-
 D3DClass::D3DClass()
 {
 	m_swapChain = 0;

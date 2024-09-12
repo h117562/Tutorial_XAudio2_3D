@@ -1,6 +1,8 @@
 #ifndef _DEBUG_INFO_UI_H_
 #define _DEBUG_INFO_UI_H_
 
+#pragma comment(lib, "winmm.lib")
+
 #include "D3DClass.h"
 #include "textclass.h"
 #include "CameraClass.h"
