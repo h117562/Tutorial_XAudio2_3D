@@ -157,7 +157,7 @@ bool D3DClass::Initialize(bool vsync, HWND hwnd, bool fullscreen, float screenDe
 	ZeroMemory(&swapChainDesc, sizeof(swapChainDesc));
 
 	//스왑 체인 설정
-	swapChainDesc.BufferCount = 1;						//백 버퍼 갯수
+	swapChainDesc.BufferCount = 2;						//백 버퍼 갯수
 	swapChainDesc.BufferDesc.Width = m_screenSize.x;		//백 버퍼 너비
 	swapChainDesc.BufferDesc.Height = m_screenSize.y;		//백 버퍼 높이
 	swapChainDesc.BufferDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;	//백 버퍼 형식

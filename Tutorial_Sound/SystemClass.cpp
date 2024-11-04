@@ -63,7 +63,7 @@ bool SystemClass::Initialize()
 
 
 	//프로그램 윈도우 생성
-	m_hwnd = CreateWindowEx(WS_EX_APPWINDOW, m_applicationName, m_applicationName, WS_OVERLAPPEDWINDOW,
+	m_hwnd = CreateWindowEx(WS_EX_APPWINDOW, m_applicationName, m_applicationName, WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX | WS_MAXIMIZEBOX,
 		posX, posY, screenwidth, screenheight, NULL, NULL, m_hinstance, NULL);
 
 	//윈도우 포커스 가져오기
