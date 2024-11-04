@@ -126,4 +126,18 @@
       <Filter>Sound</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\PixelShader.hlsl">
+      <Filter>ShaderManager\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\VertexShader.hlsl">
+      <Filter>ShaderManager\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ColorPs.hlsl">
+      <Filter>ShaderManager\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ColorVs.hlsl">
+      <Filter>ShaderManager\HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
 </Project>
